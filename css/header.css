@@ -1,1 +1,42 @@
 /*CSS header*/
+
+header {
+	padding: 15px;
+	position: sticky;
+	border: black solid 1px;
+}
+
+header nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+}
+
+header>nav>div {
+	margin-right: 5%;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+header>nav>div>div>ul {
+	list-style-type: none;
+	padding-left: 5px;
+	display: none;
+	border: solid black 1px;
+	background: white;
+}
+
+.sub_link a, .nav_link a {
+	text-decoration: none;
+	color: black;
+}
+
+header>nav>div>h3, header>nav>div>div>ul {
+	margin: 0px;
+}
+
+#acceuil_link:hover + #acceuil_menu ul, #tarif_link:hover + #tarif_menu ul, #salle_link:hover + #salle_menu ul, #acceuil_menu ul:hover, #tarif_menu ul:hover, #salle_menu ul:hover { 
+	position: absolute;
+	display: block;
+}
+
