@@ -4,6 +4,7 @@ header {
 	padding: 15px;
 	position: sticky;
 	border: black solid 1px;
+	background: #131114;
 }
 
 header nav {
@@ -21,14 +22,16 @@ header>nav>div {
 header>nav>div>div>ul {
 	list-style-type: none;
 	padding-left: 5px;
+	padding-right: 5px;
 	display: none;
 	border: solid black 1px;
-	background: white;
+	background: #131114;
+	border-radius: 5px;
 }
 
 .sub_link a, .nav_link a {
 	text-decoration: none;
-	color: black;
+	color: #FFFFFF;
 }
 
 header>nav>div>h3, header>nav>div>div>ul {
@@ -36,7 +39,26 @@ header>nav>div>h3, header>nav>div>div>ul {
 }
 
 #accueil_link:hover + #accueil_menu ul, #tarif_link:hover + #tarif_menu ul, #salle_link:hover + #salle_menu ul, #accueil_menu ul:hover, #tarif_menu ul:hover, #salle_menu ul:hover { 
+	padding-top: 10px;
 	position: absolute;
 	display: block;
 }
+
+header>nav>div>div>ul>li {
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+header>nav {
+	font-family: Roboto, sans-serif;
+}
+
+.nav_link, .sub_link {
+	font-size: 97%;
+}
+
+.nav_link a:hover, .sub_link a:hover {
+	color: #EA925E;
+}
+
 
