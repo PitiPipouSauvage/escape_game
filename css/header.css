@@ -35,7 +35,7 @@ header>nav>div>h3, header>nav>div>div>ul {
 	margin: 0px;
 }
 
-#acceuil_link:hover + #acceuil_menu ul, #tarif_link:hover + #tarif_menu ul, #salle_link:hover + #salle_menu ul, #acceuil_menu ul:hover, #tarif_menu ul:hover, #salle_menu ul:hover { 
+#accueil_link:hover + #accueil_menu ul, #tarif_link:hover + #tarif_menu ul, #salle_link:hover + #salle_menu ul, #accueil_menu ul:hover, #tarif_menu ul:hover, #salle_menu ul:hover { 
 	position: absolute;
 	display: block;
 }
