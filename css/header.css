@@ -1,49 +1,49 @@
 .navbar {
-	position: absolute;
-	top: 20px;
-	left: 20px;
-	right: 20px;
-	padding: 10px;
-	display: flex;
-	justify-content: space-around;
-	background: rgba(255, 255, 255, 0.5);
-	border-radius: 12px;
-	z-index: 2;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    z-index: 2;
 }
 
 .nav-item {
-	background: #000;
-	color: #fff;
-	padding: 10px 20px;
-	border-radius: 8px;
-	cursor: pointer;
-	position: relative;
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
 }
 
 .nav-item:hover .dropdown {
-	display: block;
+    display: block;
 }
 
 .dropdown {
-	display: none;
-	position: absolute;
-	top: 100%;
-	left: 0;
-	background: #000;
-	color: #fff;
-	border-radius: 8px;
-	margin-top: 5px;
-	min-width: 150px;
-	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #000;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 5px;
+    min-width: 150px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .dropdown a {
-	color: #fff;
-	padding: 10px;
-	text-decoration: none;
-	display: block;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
 }
 
 .dropdown a:hover {
-	background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
 }
