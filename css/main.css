@@ -5,7 +5,6 @@
 	src: url("../fonts/Roboto/Roboto-Black.ttf") format("ttf");
 }
 
-<<<<<<< HEAD
 @font-face {
 	font-family: 'Bebas_neue';
 	src: url("../fonts/bebas_neue/BebasNeue-Regular.woff") format("woff");
@@ -130,6 +129,7 @@
 }
 
 /* Fin CSS contact.html */
+<<<<<<< HEAD
 =======
 body {
 	margin: 0;
