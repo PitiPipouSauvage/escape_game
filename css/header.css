@@ -1,64 +1,49 @@
-/*CSS header*/
-
-header {
-	padding: 15px;
-	position: sticky;
-	border: black solid 1px;
-	background: #131114;
-}
-
-header nav {
-	display: flex;
-	flex-direction: row;
-	justify-content: start;
-}
-
-header>nav>div {
-	margin-right: 5%;
-	margin-top: auto;
-	margin-bottom: auto;
-}
-
-header>nav>div>div>ul {
-	list-style-type: none;
-	padding-left: 5px;
-	padding-right: 5px;
-	display: none;
-	border: solid black 1px;
-	background: #131114;
-	border-radius: 5px;
-}
-
-.sub_link a, .nav_link a {
-	text-decoration: none;
-	color: #FFFFFF;
-}
-
-header>nav>div>h3, header>nav>div>div>ul {
-	margin: 0px;
-}
-
-#accueil_link:hover + #accueil_menu ul, #tarif_link:hover + #tarif_menu ul, #salle_link:hover + #salle_menu ul, #accueil_menu ul:hover, #tarif_menu ul:hover, #salle_menu ul:hover { 
-	padding-top: 10px;
+.navbar {
 	position: absolute;
+	top: 20px;
+	left: 20px;
+	right: 20px;
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 12px;
+	z-index: 2;
+}
+
+.nav-item {
+	background: #000;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 8px;
+	cursor: pointer;
+	position: relative;
+}
+
+.nav-item:hover .dropdown {
 	display: block;
 }
 
-header>nav>div>div>ul>li {
-	padding-right: 3px;
-	padding-left: 3px;
+.dropdown {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: #000;
+	color: #fff;
+	border-radius: 8px;
+	margin-top: 5px;
+	min-width: 150px;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-header>nav {
-	font-family: Roboto, sans-serif;
+.dropdown a {
+	color: #fff;
+	padding: 10px;
+	text-decoration: none;
+	display: block;
 }
 
-.nav_link, .sub_link {
-	font-size: 97%;
+.dropdown a:hover {
+	background: rgba(255, 255, 255, 0.1);
 }
-
-.nav_link a:hover, .sub_link a:hover {
-	color: #EA925E;
-}
-
-

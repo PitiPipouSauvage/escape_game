@@ -1,61 +1,72 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/header.css">
-	<link rel="stylesheet" type="text/css" href="css/footer.css">
-	<title>Accueil</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<title>Escape Game</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css">
+
+	<style>
+		/* Header Section */
+	</style>
 </head>
+
 <body>
-	<header>
-		<nav>
-			<div>
-				<!--Menu déroliant: si on clique sur accueil on est ammené en haut de la page sinon à des ancres -->
-				<h3 id="accueil_link" class="nav_link"><a href="index.html">Accueil</a></h3>
-				<div id="accueil_menu">
-					<ul>
-						<li class="sub_link"><a href="index.html#salles">Salles</a></li>
-						<li class="sub_link"><a href="index.html#avis">Avis</a></li>
-					</ul>
-				</div>
+	<header class="navbar">
+		<div class="nav-item">Home
+			<div class="dropdown">
+				<a href="#">Submenu 1</a>
+				<a href="#">Submenu 2</a>
+				<a href="#">Submenu 3</a>
 			</div>
-			<div>
-				<h3 id="salle_link" class="nav_link"><a href="salles.html">Salles</a></h3>
-				<div id="salle_menu">
-					<ul>
-						<li class="sub_link"><a href="salles.html#salle1">Première salle</a></li>
-						<li class="sub_link"><a href="salles.html#salle2">Deuxième salle</a></li>
-						<li class="sub_link"><a href="salles.html#salle3">Troisième salle</a></li>
-						<li class="sub_link"><a href="salles.html#salle4">Quatrième salle</a></li>
-						<li class="sub_link"><a href="salles.html#salle5">Cinquième salle</a></li>
-					</ul>
-				</div>
+		</div>
+		<div class="nav-item">Home
+			<div class="dropdown">
+				<a href="#">Submenu 1</a>
+				<a href="#">Submenu 2</a>
+				<a href="#">Submenu 3</a>
 			</div>
-			<div>
-				<h3 class="nav_link"><a href="contact.html">Contact</a></h3>
+		</div>
+		<div class="nav-item">Home
+			<div class="dropdown">
+				<a href="#">Submenu 1</a>
+				<a href="#">Submenu 2</a>
+				<a href="#">Submenu 3</a>
 			</div>
-			<div>
-				<h3 class="nav_link"><a href="avis.html">Avis</a></h3>
+		</div>
+		<div class="nav-item">Home
+			<div class="dropdown">
+				<a href="#">Submenu 1</a>
+				<a href="#">Submenu 2</a>
+				<a href="#">Submenu 3</a>
 			</div>
-			<div>
-				<h3 id="tarif_link" class="nav_link"><a href="tarifs.html">Tarifs</a></h3>
-				<div id="tarif_menu">
-					<ul>
-						<li class="sub_link"><a href="tarifs.html#basic">Basique</a></li>
-						<li class="sub_link"><a href="tarifs.html#vip">VIP</a></li>
-						<li class="sub_link"><a href="tarifs.html#entreprises">Entreprises ou groupe</a></li>
-					</ul>
-				</div>
+		</div>
+		<div class="nav-item">Home
+			<div class="dropdown">
+				<a href="#">Submenu 1</a>
+				<a href="#">Submenu 2</a>
+				<a href="#">Submenu 3</a>
 			</div>
-		</nav>
+		</div>
 	</header>
-	<main>
-		
+	<main class="content">
+		<h1>TITRE</h1>
+		<button class="label-button">Label</button>
+		<div class="arrow-container">
+			<a href="#extra-info" class="hide-on-palm arrow-down">
+				<span class="fa-stack fa-3x">
+					<i class="fa fa-circle fa-stack-2x"></i>
+					<i class="fa fa-chevron-down fa-stack-1x"></i>
+				</span>
+			</a>
+		</div>
 	</main>
-	<footer>
-		
-	</footer>
 </body>
+
 </html>
