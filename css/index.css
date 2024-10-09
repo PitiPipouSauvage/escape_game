@@ -5,14 +5,17 @@
 
 html, body {
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 body {
     font-style: normal;
     font-weight: normal;
     font-family: 'Kanit', sans-serif;
+}
 
-    overflow: scroll;
+a {
+    text-decoration: none;
 }
 
 main {
@@ -40,8 +43,28 @@ main {
 #front-page h1 {
     font-size: 100px;
     font-weight: 800;
-
     color: white;
+}
+
+#front-page > a {
+    margin-top: 50px;
+    padding: 10px 30px;
+
+    font-size: 1.2rem;
+    
+    border-radius: 20px;
+    border: 2px solid #fff;
+
+    color: #fff;
+    background: transparent;
+    
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+#front-page > a:hover {
+    background: #fff;
+    color: #000;
 }
 
 main article {
@@ -61,6 +84,8 @@ main article div {
 main article img {
     width: 40%;
 }
+
+
 
 /*
 main article:nth-child(odd) {
