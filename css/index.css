@@ -42,14 +42,15 @@ main {
 }
 
 #front-page h2 {
-    font-size: 100px;
+    font-size: 5rem;
     font-weight: bold;
+
     color: white;
 }
 
 #front-page a {
-    margin-top: 50px;
-    padding: 10px 30px;
+    margin-top: 2rem;
+    padding: 0.75rem 1.5rem;
 
     font-size: 22px;
     
@@ -92,12 +93,78 @@ main {
     width: 40%;
 }
 
-/*
-main article:nth-child(odd) {
-    flex-direction: row;
+#prices {
+    width: 50%;
+
+    padding-top: 80px;
+
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    text-align: center;
 }
 
-main article:nth-child(even) {
-    flex-direction: row-reverse;
+#prices h2 {
+    margin-bottom: 2rem;
+    font-size: 4rem;
 }
-*/
+
+#prices .cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+#prices .card {
+    width: 15rem;
+    height: 20rem;
+
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 2.5rem;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#prices .card h3 {
+    width: 100%;
+
+    padding-bottom: 2rem;
+
+    border-bottom: 1px solid black;
+
+    justify-self: self-start;
+    
+    font-size: 2rem;
+    font-style: normal;
+}
+
+#prices .card p {
+    justify-self: center;
+    font-size: 2rem;
+}
+
+#prices .card .card-info {
+    justify-self: center;
+    
+    font-size: 1rem;
+    font-style: italic;
+}
+
+#prices .card a {
+    padding: 0.5rem 2rem;
+    
+    border-radius: 5px;
+
+    color: white;    
+    background-color: #363636;
+}
+
+#prices .card a:hover {
+    background-color: #686868;
+}
+
+#students-card {
+    background-color: hsl(218, 63%, 47%);
+}
+
