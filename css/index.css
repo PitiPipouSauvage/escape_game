@@ -71,6 +71,8 @@ main {
 #articles {
     width: 100%;
 
+    padding-top: 80px;
+
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -80,6 +82,10 @@ main {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+}
+
+#articles article:nth-child(even) {
+    flex-direction: row-reverse;
 }
 
 #articles article div {
@@ -167,4 +173,3 @@ main {
 #students-card {
     background-color: hsl(218, 63%, 47%);
 }
-
