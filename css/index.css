@@ -100,7 +100,7 @@ main {
 }
 
 #prices {
-    width: 50%;
+    width: 100%;
 
     padding-top: 80px;
 
@@ -110,21 +110,22 @@ main {
 
 #prices > h2 {
     margin-bottom: 2rem;
-    font-size: 4rem;
+    font-size: 3.5vw;
+    text-align: center;
 }
 
 #prices .cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #prices .card {
-    width: 15rem;
-    height: 20rem;
+    width: 13vw;
+    height: 32vh;
 
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    padding: 2.5rem;
+    box-shadow: 0 0.5vh 0.8vw 0 rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 1.5vh 1.1vw;
 
     text-align: center;
     
@@ -133,40 +134,40 @@ main {
     flex-direction: column;
 }
 
+#prices .card div {
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
 #prices .card h2 {
-    margin: -2.5rem -2.5rem 0 -2.5rem;
+    margin: -1.5vh -1.1vw;
     padding: 0.75rem 0;
 
-    font-size: 2rem;
+    font-size: 1.5vw;
 
     border-radius: 10px 10px 0 0;
 
     color: white;
-    background-color: hsl(218, 63%, 47%);
+    background-color: #363636;
 }
 
-#prices .card h3 {
-    width: 100%;
-
-    padding-bottom: 0.5rem;
-
-    border-bottom: 1px solid black;
-    
-    font-size: 2rem;
-    font-style: normal;
+#prices #popular {
+    background-color: #4479D5;
 }
 
 #prices .card .offer-price {
     text-decoration: underline;
 
-    font-size: 2rem;
+    font-size: 1.6vw;
     font-weight: bold;
 }
 
 #prices .card .card-info {
     justify-self: center;
-    
-    font-size: 1rem;
+
+    font-size: 0.8vw;
     font-style: italic;
 }
 
@@ -174,7 +175,7 @@ main {
     padding: 0.5rem 2rem;
     
     border-radius: 5px;
-
+    font-size: 0.8vw;
     color: white;    
     background-color: #363636;
 }
