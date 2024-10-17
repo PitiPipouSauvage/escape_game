@@ -60,6 +60,13 @@ footer ul li a {
     padding-right: 2em;
 }
 
+#socials ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 6.2em;
+}
+
 .footer-icon {
     background: white;
     height: 1.5em;
