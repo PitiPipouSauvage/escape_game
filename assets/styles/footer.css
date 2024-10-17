@@ -24,9 +24,14 @@ footer > div {
 .footer-link {
     margin-bottom: 0.25em;
     margin-top: 0.25em;
-    display: inline-block;
     border-radius: 5px;
     padding: 0.1em;
+    display: flex;
+    align-items: center;
+}
+
+#contact.footer-link {
+    width: 25em;
 }
 
 .footer-link:hover {
@@ -58,6 +63,10 @@ footer ul li a {
 
 #socials {
     padding-right: 2em;
+}
+
+#socials a {
+    width: 12em;
 }
 
 #socials ul {
