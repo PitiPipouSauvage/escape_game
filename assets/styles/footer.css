@@ -4,6 +4,11 @@ footer {
     display: flex;
 }
 
+#contact, #socials {
+    width: 50vw;
+    height: 9em;
+}
+
 footer ul {
     list-style-type: none;
     color: white;
