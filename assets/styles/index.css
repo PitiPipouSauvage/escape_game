@@ -119,6 +119,11 @@ main {
     justify-content: space-around;
 }
 
+#contact, #socials {
+    width: 50vw;
+    height: 33vh;
+}
+
 #prices .card {
     width: 13vw;
     height: 32vh;
