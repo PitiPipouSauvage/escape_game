@@ -110,7 +110,7 @@ main {
     padding-top: 4vh;
     padding-bottom: 4vh;
 
-    background: linear-gradient(rgba(255, 255, 255, -4), rgba(50,50,50,0.7) ); 
+    background-color: rgb(230, 230, 230); 
 
 }
 
