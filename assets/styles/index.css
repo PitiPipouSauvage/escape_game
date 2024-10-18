@@ -95,7 +95,12 @@ main {
     flex-direction: column;
 }
 
-#articles article img {
+#articles article:first-child img {
+    width: 20vw;
+    
+}
+
+#articles article:not(:first-child) img {
     width: 40%;
 }
 

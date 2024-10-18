@@ -50,13 +50,15 @@ header nav > ul a:hover {
 header nav > ul li:hover > .sub-menu {
     display: flex;
     flex-direction: column;
+    
+    padding-top: 1.5vh;
+
+    cursor: pointer;
 }
 
 .sub-menu {
     display: none;
     position: absolute;
-
-    margin-top: 1vh;
 }
 
 .sub-menu a {
