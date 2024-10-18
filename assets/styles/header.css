@@ -31,7 +31,7 @@ header nav > ul li {
     margin: 0 20px;
 }
 
-header nav > ul a {
+header nav > ul li a {
     padding: 1vh 1.5vw;
     border-radius: 5px;
 
@@ -39,6 +39,27 @@ header nav > ul a {
     background-color: #363636;
 }
 
+header nav ul li:hover > a {
+    border-radius: 0;
+}
+
 header nav > ul a:hover {
     background-color: #686868;
+}
+
+header nav > ul li:hover > .sub-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+
+    margin-top: 1vh;
+}
+
+.sub-menu a {
+    border: 1px solid #686868;
+    border-radius: 0;
 }
