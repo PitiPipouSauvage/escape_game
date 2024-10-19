@@ -89,6 +89,7 @@ footer ul {
 
 .footer-icon {
     background: #32383b;
+    border-radius: 5px;
     height: 1.5em;
     width: 1.5em;
     padding: 0.5em;
