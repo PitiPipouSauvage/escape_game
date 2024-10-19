@@ -97,7 +97,7 @@ main {
     color: white;
     background: transparent;
 
-    transition: background 0.3s, color 0.3s;
+    transition: all 0.5s;
 }
 
 #front-page > a:hover {
@@ -123,29 +123,16 @@ section:not(:first-child){
     flex-direction: column;
 }
 
-#articles article:nth-child(2n+2) img {
-    margin-left: 30px;
-    margin-right: 0; 
+.article-title{
+    
 }
 
-#articles article:nth-child(2n+2) p {
-    margin-right: 20px;
-    margin-left: 0;
+article > img{
+    border-radius: 10px; 
 }
 
-#articles article:nth-child(2n+3) img {
-    margin-right: 30px; 
-    margin-left: 0;  
-}
-
-#articles article:nth-child(2n+3) p {
-    margin-left: 20px;
-    margin-right: 0;  
-}
-
-#overview img {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+#articles article:not(:first-child) img{
+    margin: 0 auto;
 }
 
 #articles article {
@@ -160,9 +147,15 @@ section:not(:first-child){
 
 #articles article div {
     width: 40%;
-
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#articles article div h2 {
+    padding-bottom:20px;
 }
 
 #overview {
@@ -172,9 +165,8 @@ section:not(:first-child){
 
 #overview img {
     width: calc(100% / 4);
-    padding:20px;
-    object-fit: cover;
-    border-radius: 30px;
+    object-fit: cover;  
+    box-shadow: 0 0.5vh 0.8vw 0 rgba(0, 0, 0, 0.5);
 }
 
 #articles .rooms-images {
@@ -267,6 +259,7 @@ section:not(:first-child){
     
     color: white;
     background-color: #363636;
+    transition: all 0.5s;
 }
 
 #prices .card a:hover {
