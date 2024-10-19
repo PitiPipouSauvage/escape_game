@@ -55,8 +55,14 @@ footer ul {
 .socials-picture {
     width: 1.5em;
     height: 1.5em;
-    padding-right: 0.5em;
-    background: 
+    background: #32383b;
+    padding: 0.5em;
+    margin-right: 0.5em;
+    border-radius: 5px;
+}
+
+.socials-picture:hover {
+    background-color: #686868;
 }
 
 #socials a {
