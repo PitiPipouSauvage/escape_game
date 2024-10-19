@@ -1,13 +1,15 @@
 footer {
+    height:auto;
     background-color: #282c2f;
-    padding: 1em;
+    padding: 2em;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 #contact, #socials {
     width: auto;
-    height: 9em;
+    height: 10em;
 }
 
 #about {
@@ -39,6 +41,9 @@ footer ul {
     background: #32383b;
 }
 
+#location{
+    cursor: pointer;
+}
 
 .footer-title {
     color: white;
@@ -83,12 +88,26 @@ footer ul {
 }
 
 .footer-icon {
-    background: white;
+    background: #32383b;
     height: 1.5em;
     width: 1.5em;
-    padding: 0.1em;
+    padding: 0.5em;
     border-radius: 5px;
     margin-right: 1em;
+}
+
+#mail-icon {
+    height: 1.9em;
+    width: 1.9em;
+    padding: 0.3em;
+    margin-right: 1em;
+}
+
+#ping {
+    display: block;
+    height: 1.3em;
+    width: 1.3em;
+    margin: auto;
 }
 
 #city {

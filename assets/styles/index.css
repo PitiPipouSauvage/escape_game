@@ -121,9 +121,11 @@ section:not(:first-child){
     display: flex;
     align-items: center;
     flex-direction: column;
+
+    text-align: center;
 }
 
-.article-title{
+.article-title {
     
 }
 
@@ -156,6 +158,10 @@ article > img{
 
 #articles article div h2 {
     padding-bottom:20px;
+}
+
+#articles article div p {
+    line-height: 2rem;
 }
 
 #overview {
