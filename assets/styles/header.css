@@ -39,18 +39,16 @@ header nav > ul li a {
     background-color: #363636;
 }
 
-header nav ul li:hover > a {
-    border-radius: 0;
-}
-
 header nav > ul a:hover {
+    border-radius : 5px;
     background-color: #686868;
 }
+
+
 
 header nav > ul li:hover > .sub-menu {
     display: flex;
     flex-direction: column;
-    
     padding-top: 1.5vh;
 
     cursor: pointer;
@@ -63,5 +61,17 @@ header nav > ul li:hover > .sub-menu {
 
 .sub-menu a {
     border: 1px solid #686868;
+    border-radius: 0px;;
+}
+
+.sub-menu a:hover {
     border-radius: 0;
+}
+
+.sub-menu a:first-child {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.sub-menu a:last-child {
+    border-radius: 0px 0px 5px 5px;
 }

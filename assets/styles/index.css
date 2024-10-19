@@ -68,10 +68,18 @@ main {
     color: black;
 }
 
+.section-title{
+    margin-bottom: 2rem;
+    font-size: 3.5vw;
+}
+
+section:not(:first-child){
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
 #articles {
     width: 100%;
-
-    padding-top: 80px;
 
     display: flex;
     align-items: center;
@@ -95,33 +103,30 @@ main {
     flex-direction: column;
 }
 
-#articles article:first-child img {
-    width: 20vw;
-    
+#overview {
+    width: 100%;
+    height: 50vh;
 }
 
-#articles article:not(:first-child) img {
+#overview img {
+    width: calc(100% / 4);
+    padding:20px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+#articles .rooms-images {
     width: 40%;
 }
 
 #prices {
     width: 100%;
-
-    padding-top: 4vh;
-    padding-bottom: 4vh;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     background-color: rgb(230, 230, 230); 
 
-}
-
-#prices > h2 {
-    margin-bottom: 2rem;
-    font-size: 3.5vw;
 }
 
 #prices .cards {

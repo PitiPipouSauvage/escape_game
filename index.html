@@ -44,12 +44,15 @@
             <a href="#articles">C'est parti !</a>
         </section>
 
-        <div id="articles">
-            <article>
+        <section id="articles">
+            <h2 class="section-title">Aperçu</h2>
+            <article id="overview">
                 <img src="assets/images/rooms/second-room-portal.jpeg" alt="Portail de la seconde salle">
                 <img src="assets/images/rooms/fourth-room-2.jpeg" alt="Deuxième salle">
                 <img src="assets/images/portal-example.jpeg" alt="Exemple de portail">
             </article>
+
+            <h2 class="section-title">Présentation des salles</h2>
 
             <article id="first-room">
                 <div>
@@ -71,7 +74,7 @@
                         bouton et leur activera le portail pour accéder à la salle suivante.
                     </p>
                 </div>
-                <img src="assets/images/rooms/first-room.png" alt="Première salle">
+                <img src="assets/images/rooms/first-room.png" alt="Première salle" class="rooms-images">
             </article>
 
             <article id="second-room">
@@ -93,7 +96,7 @@
                         "quitter" présent et passer à la salle suivante.
                     </p>
                 </div>
-                <img src="assets/images/rooms/second-room.jpg" alt="Deuxième salle">
+                <img src="assets/images/rooms/second-room.jpg" alt="Deuxième salle" class="rooms-images">
             </article>
 
             <article id="third-room">
@@ -118,7 +121,7 @@
                         bouton, et un portail vers la prochaine salle apparaît.
                     </p>
                 </div>
-                <img src="assets/images/rooms/third-room.png" alt="Troisième salle">
+                <img src="assets/images/rooms/third-room.png" alt="Troisième salle" class="rooms-images">
             </article>
 
             <article id="fourth-room">
@@ -139,7 +142,7 @@
                         avant que tout ne s'effondre.
                     </p>
                 </div>
-                <img src="assets/images/rooms/fourth-room.jpg" alt="Quatrième salle">
+                <img src="assets/images/rooms/fourth-room.jpg" alt="Quatrième salle" class="rooms-images">
             </article>
 
             <article id="fifth-room">
@@ -161,12 +164,12 @@
                         l'équipe de reconstituer le bouton et de quitter le jeux.
                     </p>
                 </div>
-                <img src="assets/images/rooms/fifth-room.png" alt="Cinquième salle">
+                <img src="assets/images/rooms/fifth-room.png" alt="Cinquième salle" class="rooms-images">
             </article>
-        </div>
+        </section>
 
         <section id="prices">
-            <h2>Tarifs</h2>
+            <h2 class="section-title">Tarifs</h2>
 
             <div class="cards">
                 <div class="card">
@@ -204,7 +207,8 @@
             <h4 class="footer-title">Nous contacter</h4>
             <ul>
                 <li class="contact-links"><a href="https://maps.app.goo.gl/TWzSR48XbWKi4vZ29" class="footer-link"><img
-                            src="assets/icons/ping.webp" class="footer-icon">Adresse : Bâtiment K 34090 Montpellier</a>
+                            src="assets/icons/ping.webp" class="footer-icon"><p id="address">Adresse : Bâtiment K</p>
+                            <p id="city">34090 Montpellier, France</p></a>
                 </li>
                 <li class="contact-links"><span class="footer-link"><img src="assets/icons/tel.webp"
                             class="footer-icon">Numéro de téléphone : 04 00 00 00 00</span></li>
@@ -214,12 +218,13 @@
             </ul>
         </div>
         <div id="socials">
-            <h4 class="footer-title">Nous suivre sur les réseaux</h4>
+            <h4 class="footer-title">À propos</h4>
+            <p id="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
             <ul>
                 <li class="socials-list"><a href="https://instagram.com" class="footer-link"><img
-                            src="assets/icons/instagram.webp" class="socials-picture">Notre instagram</a></li>
+                            src="assets/icons/instagram.webp" class="socials-picture"></a></li>
                 <li class="socials-list"><a href="https://facebook.com" class="footer-link"><img
-                            src="assets/icons/facebook.webp" class="socials-picture">Notre facebook</a></li>
+                            src="assets/icons/facebook.webp" class="socials-picture"></a></li>
             </ul>
         </div>
     </footer>
