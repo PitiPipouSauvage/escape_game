@@ -1,4 +1,4 @@
-# Informations sur le projet d'Escape Game SAE 1.05 - Groupe S5
+# Informations sur le projet du site web SAE 1.05 - Groupe S5
 
 ## Membres du groupe
 1. Rahyan Saouab
