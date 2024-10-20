@@ -8,10 +8,10 @@
 5. Sohan Pinatel
 
 ## Implication de chaque membre
-1. Rahyan Saouab : **30%** Design initial (sur figma), section principale (front-page), animations diverses, refonte des articles et de sa présentation, et présentation des images + diverses améliorations et détails dans la structure et CSS, importation d'une police ;
-2. Nathan Trioleyre : **30%** Passage au validateur et correction des erreurs et des avertissements, structure du projet, structure de base du HTML, hébergement, menu navigation, front-page, articles, importation de la police d'écriture et contribution pour les articles, les cartes des tarifs et le footer ;
+1. Rahyan Saouab : **20%** Design initial (sur figma), section principale (front-page), animations diverses, refonte des articles et de sa présentation, et présentation des images + diverses améliorations et détails dans la structure et CSS, importation d'une police ;
+2. Nathan Trioleyre : **35%** Passage au validateur et correction des erreurs et des avertissements, structure du projet, structure de base du HTML, hébergement, menu navigation, front-page, articles, importation de la police d'écriture et contribution pour les articles, les cartes des tarifs et le footer ;
 3. Dimitri Pape : **20%** section des tarifs ;
-4. Thomas Baert : **15%** footer ;
+4. Thomas Baert : **20%** footer ;
 5. Sohan Pinatel : **5%** ajout des images des salles ;
 
 ## Lien vers le site web
