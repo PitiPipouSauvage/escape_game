@@ -41,6 +41,7 @@ footer ul {
     width: 25em;
 
     color: white;
+    transition: all 1s;
 }
 
 #contact .footer-link:hover {
@@ -78,6 +79,7 @@ footer ul {
     border-radius: 5px;
 
     background-color: #32383b;
+    transition: all 1s;
 }
 
 .socials-picture:hover {
