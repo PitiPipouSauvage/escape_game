@@ -11,17 +11,11 @@ footer {
     background-color: #282c2f;
 }
 
-#contact,
-#socials {
-    height: 10em;
-}
-
 #about {
     color: #6a7173;
 }
 
 footer ul {
-    margin-left: 2em;
     padding-right: 2em;
 
     list-style-type: none;
@@ -48,19 +42,14 @@ footer ul {
     background-color: #32383b;
 }
 
-#contact #email {
-    color: #6884bc;
-}
-
 #location {
     cursor: pointer;
 }
 
 .footer-title {
-    margin-bottom: 0.5em;
-    margin-left: 1.7em;
+    margin-bottom: 0.7em;
 
-    font-size: 1.2em;
+    font-size: 1.7rem;
 }
 
 .socials-list a,
@@ -90,7 +79,6 @@ footer ul {
     width: 25em;
 
     margin-bottom: 0.5em;
-    margin-left: 2em;
 }
 
 #socials ul {
