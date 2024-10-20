@@ -151,10 +151,12 @@ main {
 
 #rooms article div {
     width: 40%;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
     margin: 0 auto;
 }
 
@@ -162,7 +164,7 @@ main {
     padding-bottom: 5px;
     margin-bottom: 20px;
 
-    font-size: 2vh;
+    font-size: 1.5rem;
 
     border-bottom: 1px solid black;
 }
@@ -194,13 +196,13 @@ main {
 
 #prices > div {
     width: 80%;
-
+    
     display: flex;
     justify-content: space-around;
 }
 
 #prices .card {
-    width: 15vw;
+    width: 17vw;
     height: 35vh;
 
     box-shadow: 0 0.5vh 0.8vw 0 rgba(0, 0, 0, 0.5);
@@ -252,6 +254,8 @@ main {
 }
 
 #prices .card div {
+    padding: 0 2rem;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -271,6 +275,6 @@ main {
 #prices .card .card-info {
     justify-self: center;
 
-    font-size: 0.8vw;
+    font-size: 1vw;
     font-style: italic;
 }

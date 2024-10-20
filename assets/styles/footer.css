@@ -5,7 +5,7 @@ footer {
     justify-content: space-around;
     align-items: center;
 
-    padding: 4vh 0;
+    padding: 5vh 0;
 
     color: white;
     background-color: #282c2f;
@@ -95,6 +95,10 @@ footer ul {
     display: flex;
     flex-direction: row;
     height: auto;
+}
+
+#about{
+    line-height: 1.5rem; 
 }
 
 .footer-icon {
