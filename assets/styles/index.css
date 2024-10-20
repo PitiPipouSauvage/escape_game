@@ -86,17 +86,28 @@ main {
 #overview {
     width: 100%;
 
+    padding: 8vh 0;
+
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    padding: 8vh 0;
+    text-align: center;
 
     background-color: rgb(230, 230, 230);
 }
 
 #overview .section-title {
     margin-bottom: 5vh;
+}
+
+#overview p {
+    width: 50%;
+
+    margin-bottom: 5vh;
+
+    line-height: 2rem;
+    font-size: 1.2rem;
 }
 
 #overview div {
@@ -171,6 +182,7 @@ main {
 
 #rooms article div p {
     line-height: 2rem;
+    font-size: 1.2rem;
 }
 
 #rooms .rooms-images {
