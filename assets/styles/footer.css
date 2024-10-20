@@ -1,14 +1,18 @@
 footer {
-    height:auto;
-    background-color: #282c2f;
-    padding: 2em;
+    width: 100%;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    padding: 4vh 0;
+
+    color: white;
+    background-color: #282c2f;
 }
 
-#contact, #socials {
-    width: auto;
+#contact,
+#socials {
     height: 10em;
 }
 
@@ -17,42 +21,49 @@ footer {
 }
 
 footer ul {
-    list-style-type: none;
-    color: white;
     margin-left: 2em;
     padding-right: 2em;
+
+    list-style-type: none;
 }
 
 .footer-link {
-    margin-bottom: 0.25em;
-    margin-top: 0.25em;
-    border-radius: 5px;
+    margin: 0.25em 0;
     padding: 0.1em;
+
     display: flex;
     align-items: center;
-    color: #6884bc;
+
+    border-radius: 5px;
 }
 
 #contact .footer-link {
     width: 25em;
+
+    color: white;
 }
 
 #contact .footer-link:hover {
-    background: #32383b;
+    background-color: #32383b;
 }
 
-#location{
+#contact #email {
+    color: #6884bc;
+}
+
+#location {
     cursor: pointer;
 }
 
 .footer-title {
-    color: white;
-    margin-left: 1.7em;
     margin-bottom: 0.5em;
+    margin-left: 1.7em;
+
     font-size: 1.2em;
 }
 
-.socials-list a, .contact-list {
+.socials-list a,
+.contact-list {
     display: flex;
     align-items: center;
 }
@@ -60,25 +71,24 @@ footer ul {
 .socials-picture {
     width: 1.5em;
     height: 1.5em;
-    background: #32383b;
-    padding: 0.5em;
+
     margin-right: 0.5em;
+    padding: 0.5em;
+
     border-radius: 5px;
+
+    background-color: #32383b;
 }
 
 .socials-picture:hover {
     background-color: #686868;
 }
 
-#socials a {
-    width: auto;
-}
-
 #socials p {
-    text-align: left;
     width: 25em;
-    margin-left: 2em;
+
     margin-bottom: 0.5em;
+    margin-left: 2em;
 }
 
 #socials ul {
@@ -88,41 +98,29 @@ footer ul {
 }
 
 .footer-icon {
-    background: #32383b;
-    border-radius: 5px;
-    height: 1.5em;
     width: 1.5em;
-    padding: 0.5em;
-    border-radius: 5px;
+    height: 1.5em;
+
     margin-right: 1em;
+    padding: 0.5em;
+
+    border-radius: 5px;
+
+    background-color: #32383b;
 }
 
 #mail-icon {
-    height: 1.9em;
     width: 1.9em;
-    padding: 0.3em;
-    margin-right: 1em;
-}
+    height: 1.9em;
 
-#ping {
-    display: block;
-    height: 1.3em;
-    width: 1.3em;
-    margin: auto;
+    margin-right: 1em;
+    padding: 0.3em;
 }
 
 #city {
     font-weight: bold;
 }
 
-#address, #city {
-    color: white;
-}
-
 .contact-links > a > div {
     display: block;
-}
-
-#phone-number {
-    color: white;
 }

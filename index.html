@@ -21,13 +21,19 @@
                 </li>
 
                 <li>
-                    <a href="#prices">Tarifs</a>
+                    <a href="#rooms">Salles</a>
 
                     <div class="sub-menu">
-                        <a href="#prices">4 Joueurs</a>
-                        <a href="#prices">5 Joueurs</a>
-                        <a href="#prices">Étudiant</a>
+                        <a href="#first-room">Première salle</a>
+                        <a href="#second-room">Deuxième salle</a>
+                        <a href="#third-room">Troisième salle</a>
+                        <a href="#fourth-room">Quatrième salle</a>
+                        <a href="#fifth-room">Cinquième salle</a>
                     </div>
+                </li>
+
+                <li>
+                    <a href="#prices">Tarifs</a>
                 </li>
 
                 <li>
@@ -41,21 +47,26 @@
         <section id="front-page">
             <h2>Seriez-vous prêts à relever le défi ?</h2>
 
-            <a href="#articles">C'est parti !</a>
+            <a href="#rooms">C'est parti !</a>
         </section>
 
-        <section id="articles">
+        <section id="overview">
             <h2 class="section-title">Aperçu</h2>
-            <article id="overview">
+
+            <div>
                 <img src="assets/images/rooms/second-room-portal.jpeg" alt="Portail de la seconde salle">
                 <img src="assets/images/rooms/fourth-room-2.jpeg" alt="Deuxième salle">
                 <img src="assets/images/portal-example.jpeg" alt="Exemple de portail">
-            </article>
-            <h2 class="article-title">Présentation des salles</h2>
+            </div>
+        </section>
+
+        <section id="rooms">
+            <h2 class="section-title">Présentation des salles</h2>
+
             <article id="first-room">
-                
                 <div>
-                    <h2>La Quête de l'Arc Perdu</h2>
+                    <h2 class="article-title">La Quête de l'Arc Perdu</h2>
+
                     <p>
                         Au début de l'Escape Game, l'équipe arrive directement dans un château en ruines avec une
                         ambiance sombre et brumeuse règne. Le décor est composé de vieilles pierres et de torches. Au
@@ -73,12 +84,14 @@
                         bouton et leur activera le portail pour accéder à la salle suivante.
                     </p>
                 </div>
+
                 <img src="assets/images/rooms/first-room.png" alt="Première salle" class="rooms-images">
             </article>
 
             <article id="second-room">
                 <div>
-                    <h2>Piège des Sables Éternels</h2>
+                    <h2 class="article-title">Piège des Sables Éternels</h2>
+
                     <p>
                         Les joueurs se retrouvent au coeur d'un désert brûlant, entourés de ruines antiques. Face à eux,
                         une pyramide partiellement effondrée et des blocs de pierre colossaux, certains gravés de
@@ -95,12 +108,14 @@
                         "quitter" présent et passer à la salle suivante.
                     </p>
                 </div>
+
                 <img src="assets/images/rooms/second-room.jpg" alt="Deuxième salle" class="rooms-images">
             </article>
 
             <article id="third-room">
                 <div>
-                    <h2>Duel à mort à Kyoto</h2>
+                    <h2 class="article-title">Duel à mort à Kyoto</h2>
+
                     <p>
                         Les joueurs sont au milieu d'un parc japonais sur une voie pavée. De l'herbe courte, ponctuée
                         d'arbres, s'étend sur de petites collines à perte de vue. Un étang en contrebas de la position
@@ -120,12 +135,14 @@
                         bouton, et un portail vers la prochaine salle apparaît.
                     </p>
                 </div>
+
                 <img src="assets/images/rooms/third-room.png" alt="Troisième salle" class="rooms-images">
             </article>
 
             <article id="fourth-room">
                 <div>
-                    <h2>Les Ruelles de l'Ombre</h2>
+                    <h2 class="article-title">Les Ruelles de l'Ombre</h2>
+
                     <p>
                         Les joueurs se retrouvent dans une métropole cyberpunk en ruines, faite de ruelles sombres où
                         les néons vacillants et les hologrammes défaillants renforcent l'atmosphère oppressante. Dès
@@ -141,12 +158,14 @@
                         avant que tout ne s'effondre.
                     </p>
                 </div>
+
                 <img src="assets/images/rooms/fourth-room.jpg" alt="Quatrième salle" class="rooms-images">
             </article>
 
             <article id="fifth-room">
                 <div>
-                    <h2>L'hôpital des épouvantes</h2>
+                    <h2 class="article-title">L'hôpital des épouvantes</h2>
+
                     <p>
                         Les joueurs se retrouvent dans le sous-sol d'un un hôpital abandonné il y a des années. Les
                         couloirs sont affreusement obscurs et encombrés par des brancards et de vieux ustensiles. En
@@ -163,6 +182,7 @@
                         l'équipe de reconstituer le bouton et de quitter le jeux.
                     </p>
                 </div>
+
                 <img src="assets/images/rooms/fifth-room.png" alt="Cinquième salle" class="rooms-images">
             </article>
         </section>
@@ -170,31 +190,39 @@
         <section id="prices">
             <h2 class="section-title">Tarifs</h2>
 
-            <div class="cards">
+            <div>
                 <div class="card">
                     <h2>4 joueurs</h2>
+
                     <div>
                         <p class="offer-price">100 €</p>
-                        <p class="card-info">25€ par joueur</p>
+                        <p class="card-info">Pour une équipe de 4 joueurs, cela revient à 25€ par joueur.</p>
                     </div>
+
                     <a href="#contacts">Réserver</a>
                 </div>
 
-                <div class="card" id="students-card">
-                    <h2 id="popular">Populaire !</h2>
+                <div class="card" id="popular-price-card">
+                    <h2>Populaire !</h2>
+
                     <div>
                         <p class="offer-price">-5€ / étudiant</p>
-                        <p class="card-info">sous présentation de la carte étudiante valide</p>
+                        <p class="card-info">
+                            Idéal pour les étudiants ! Sous présentation de la carte étudiante valide.
+                        </p>
                     </div>
+
                     <a href="#contacts">Réserver</a>
                 </div>
 
                 <div class="card">
                     <h2>5 joueurs</h2>
+
                     <div>
                         <p class="offer-price">110 €</p>
-                        <p class="card-info">22€ par joueur</p>
+                        <p class="card-info">Pour une équipe de 4 joueurs, cela revient à 22€ par joueur.</p>
                     </div>
+
                     <a href="#contacts">Réserver</a>
                 </div>
             </div>
@@ -204,41 +232,53 @@
     <footer>
         <div id="contact">
             <h4 class="footer-title">Nous contacter</h4>
+
             <ul>
                 <li class="contact-links">
                     <a href="https://maps.app.goo.gl/TWzSR48XbWKi4vZ29" class="footer-link">
-                        <img src="assets/icons/pin.png" class="footer-icon">
+                        <img src="assets/icons/pin.png" class="footer-icon" alt="Pin icon">
+
                         <div>
-                            <p id="address">Adresse : Bâtiment K</p>
+                            <p>Adresse : Bâtiment K</p>
                             <p id="city">34090 Montpellier, France</p>
                         </div>
                     </a>
                 </li>
+
                 <li class="contact-links">
                     <span class="footer-link" id="phone-number">
-                    <img src="assets/icons/phone.png" class="footer-icon">Numéro de téléphone : 04 00 00 00 00
+                        <img src="assets/icons/phone.png" class="footer-icon" alt="Phone icon">
+                        Numéro de téléphone : 04 00 00 00 00
                     </span>
                 </li>
+
                 <li class="contact-links">
-                    <a href="mailto:escapegame@example.com" class="footer-link">
-                        <img src="assets/icons/mail.png" class="footer-icon">
+                    <a href="mailto:escapegame@example.com" class="footer-link" id="email">
+                        <img src="assets/icons/mail.png" class="footer-icon" alt="Email icon">
                         Adresse mail : escapegame@example.com
                     </a>
                 </li>
             </ul>
         </div>
+
         <div id="socials">
             <h4 class="footer-title">À propos</h4>
-            <p id="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+
+            <p id="about">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore.
+            </p>
+
             <ul>
                 <li class="socials-list">
                     <a href="https://instagram.com" class="footer-link">
-                        <img src="assets/icons/instagram.png" class="socials-picture">
+                        <img src="assets/icons/instagram.png" class="socials-picture" alt="Instagram icon">
                     </a>
                 </li>
+
                 <li class="socials-list">
                     <a href="https://facebook.com" class="footer-link">
-                        <img src="assets/icons/facebook.png" class="socials-picture">
+                        <img src="assets/icons/facebook.png" class="socials-picture" alt="Facebook icon">
                     </a>
                 </li>
             </ul>
